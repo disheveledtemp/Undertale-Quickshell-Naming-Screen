@@ -32,7 +32,7 @@ git clone https://github.com/disheveledtemp/Quickshell-Undertale-Name-Prompt.git
 2. Change into directory:
 
 ```bash
-cd repo_name
+cd Undertale-Quickshell-Naming-Screen
 ```
 
 3. Make sure `DeterminationMono.otf` is placed in the same directory as `shell.qml`.
