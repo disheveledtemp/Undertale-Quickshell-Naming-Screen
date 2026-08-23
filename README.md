@@ -48,7 +48,7 @@ quickshell -p .
 - **Keyboard Input:** Type letters on your keyboard to enter a name (up to 6 characters).
 - **Grid Navigation:** Use `Arrow Keys` to navigate the letter grid and `Enter` to select.
 - **Confirming:** Press `Enter` when focused on **Done** to enter the confirmation screen.
-- **Audio Control:** Toggle backgroynd audio playback using the `playAudio` property inside `shell.qml`
+- **Audio Control:** Toggle background audio playback using the `playAudio` property inside `shell.qml`
 
 ## License
 
