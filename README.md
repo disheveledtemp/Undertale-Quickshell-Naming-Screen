@@ -26,7 +26,7 @@ You need a Wayland compositor (Hyprland, Sway, River, etc.) and Quickshell insta
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/disheveledtemp/Quickshell-Undertale-Name-Prompt.git
+git clone https://github.com/disheveledtemp/Undertale-Quickshell-Naming-Screen.git
 ```
 
 2. Change into directory:
