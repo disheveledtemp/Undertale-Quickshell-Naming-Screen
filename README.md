@@ -6,9 +6,9 @@ An Undertale inspired character naming screen overlay written in QML for Wayland
 
 ## Features
 
-- [x] Full Wayland Overlay layer support (`WlrLayershell.Exclusive`)
-- [x] Authentic Undertale animations
-- [x] `nameConfirmed` QML signal emission upon confirmation for easy integration
+- Full Wayland Overlay layer support (`WlrLayershell.Exclusive`)
+- Authentic Undertale animations
+- `nameConfirmed` QML signal emission upon confirmation for easy integration
 
 ## Getting Started
 
