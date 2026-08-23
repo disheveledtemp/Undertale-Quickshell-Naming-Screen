@@ -2,9 +2,26 @@ import QtQuick
 import QtQuick.Layouts 
 import Quickshell
 import Quickshell.Wayland
+import Quickshell.Io
 
 PanelWindow {
     id: root
+
+    property bool playAudio: true
+
+    Process {
+        id: bgm
+        command: [
+            "ffplay", 
+            "-nodisp",          // Don't open a video window
+            "-loop", "0",        // Loop indefinitely
+            "-autoexit",
+            String(Qt.resolvedUrl("startmenu.wav")).replace("file://", "")
+        ]
+        running: root.playAudio
+    }
+
+    Component.onDestruction: bgm.running = false
 
 // Wayland layer shell overlay configuration
     WlrLayershell.namespace: "undertale-namescreen"

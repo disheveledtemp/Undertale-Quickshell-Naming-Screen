@@ -35,7 +35,7 @@ git clone https://github.com/disheveledtemp/Quickshell-Undertale-Name-Prompt.git
 cd Undertale-Quickshell-Naming-Screen
 ```
 
-3. Make sure `DeterminationMono.otf` is placed in the same directory as `shell.qml`.
+3. Make sure `DeterminationMono.otf` and `startmenu.wav` is placed in the same directory as `shell.qml`.
 
 4. Run the interface:
 
@@ -48,6 +48,7 @@ quickshell -p .
 - **Keyboard Input:** Type letters on your keyboard to enter a name (up to 6 characters).
 - **Grid Navigation:** Use `Arrow Keys` to navigate the letter grid and `Enter` to select.
 - **Confirming:** Press `Enter` when focused on **Done** to enter the confirmation screen.
+- **Audio Control:** Toggle backgroynd audio playback using the `playAudio` property inside `shell.qml`
 
 ## License
 
